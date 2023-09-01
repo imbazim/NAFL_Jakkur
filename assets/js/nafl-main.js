@@ -1,11 +1,10 @@
 /**
-* Website Name: NAFL Jakkur
+* Project Name: NAFL Jakkur
 * Author: @imbazim
 */
 
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
-
 
   /**
    * Sticky Header on Scroll
@@ -220,7 +219,6 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 1,
         spaceBetween: 40
       },
-
       1200: {
         slidesPerView: 3,
       }
