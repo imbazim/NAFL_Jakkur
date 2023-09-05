@@ -330,6 +330,9 @@ section {
   .header .logo h1 {
     font-size: 24px;
   }
+  .header.sticked .logo h1 {
+    font-size: 22px;
+  }
 }
 
 .header .logo h1 span {
@@ -829,6 +832,10 @@ section {
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
+.call-to-action {
+  padding-left: calc(1.5rem * .5);
+  padding-right: calc(1.5rem * .5);
+}
 .call-to-action .container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/nafl-cta-bg.webp") center center;
   background-size: cover;
@@ -2610,6 +2617,10 @@ section {
   letter-spacing: 1px;
   color: #fff;
   font-family: var(--font-primary);
+}
+
+.footer .footer-info .logo span span {
+  color: var(--color-secondary);
 }
 
 .footer .footer-info p {
